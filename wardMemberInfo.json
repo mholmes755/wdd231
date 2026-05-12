@@ -1,0 +1,28 @@
+{
+    "familyName": "Ramos",
+    "moveInDate": "April 13th, 2023",
+    "numberofRecords": 4,
+    "bishopricVisit": true,
+    "familyMembers": [
+        {
+            "name": "Thomas Ramos",
+            "gender": "Male",
+            "birthdate": "January 1st, 2000"
+        },
+        {
+            "name": "Maria Ramos",
+            "gender": "Female",
+            "birthdate": "February 18th, 2002"
+        },
+        {
+            "name": "Antonio Ramos",
+            "gender": "Male",
+            "birthdate": "March 15th, 2023"
+        },
+        {
+            "name": "Lucy Ramos",
+            "gender": "Female",
+            "birthdate": "April 1st, 2025"
+        }
+    ]
+}

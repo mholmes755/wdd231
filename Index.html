@@ -7,7 +7,13 @@
     <meta name="description"
         content="This is a sample website created for the WDD231 course. It demonstrates responsive design and basic web development principles.">
     <meta name="author" content="Michael Holmes">
-    <title>Document</title>
+    <meta prperty="og:title" content="Home - Michael Holmes">
+    <meta property="og:description"
+        content="Welcome to my personal website! Here you can learn more about me, see my student photo, and explore the web certificate courses I've completed.">
+    <meta property="og: image" content="images/aboutMePhoto.svg">
+    <meta property="og: url" content="http://127.0.0.1:5500/index.html">
+    <link rel="icon" href="images/home.ico" type="image/svg+xml">
+    <title>Home</title>
 
     <!-- Add your CSS file link here -->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -23,8 +29,8 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="Index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="chamber.html" target="_blank">Chamber</a></li>
             <li><a href="#">Final</a></li>
         </ul>
     </nav>
@@ -65,8 +71,8 @@
             <a href="https://x.com/" target="_blank"><img src="Images/twitter-x.svg" alt="twitter-x logo" width="16"
                     height="16"></a>
         </div>
-        <p id="copyrightYear">&copy; Michael Holmes | United States</p>
-        <p id="lastModified">Last Modified Date</p>
+        <p id="copyrightYear">&copy;</p>
+        <p id="lastModified"></p>
     </footer>
     <script src="scripts/Navigation.js"></script>
     <script src="scripts/courseListArray.js"></script>
