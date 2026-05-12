@@ -21,4 +21,5 @@ navbutton.addEventListener('click', () => {
 
 lastModified.innerHTML = `Last Modified: ${new Date().toLocaleDateString("en-US", option)}`;
 
+
 copyrightYear.innerHTML = `&copy; ${new Date().toLocaleDateString("en-US", option2)} | All rights reserved.`;
