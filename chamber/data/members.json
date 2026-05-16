@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "",
+            "address": "",
+            "phoneNumb": "",
+            "url": true,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        },
+        {
+            "name": "Smith",
+            "address": "",
+            "phoneNumb": "",
+            "url": false,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        },
+        {
+            "name": "Johnson",
+            "address": "",
+            "phoneNumb": "",
+            "url": true,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        },
+        {
+            "name": "Smith",
+            "address": "",
+            "phoneNumb": "",
+            "url": false,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        },
+        {
+            "name": "Johnson",
+            "address": "",
+            "phoneNumb": "",
+            "url": true,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        },
+        {
+            "name": "Smith",
+            "address": "",
+            "phoneNumb": "",
+            "url": false,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        },
+        {
+            "name": "Johnson",
+            "address": "",
+            "phoneNumb": "",
+            "url": true,
+            "img": "",
+            "memberLevel": "",
+            "dateJoined": ""
+        }
+    ]
+}
