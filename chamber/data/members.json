@@ -1,67 +1,67 @@
 {
     "companies": [
         {
-            "name": "",
-            "address": "",
-            "phoneNumb": "",
-            "url": true,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "Dairy Queen",
+            "address": "10264 W Overland Rd, Boise, ID 83709",
+            "phoneNumb": "+1 208-323-2658",
+            "url": "https://dqboise.com/?y_source=1_ODk5NTE3NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "img": "images/dairyQueen.jpg",
+            "memberLevel": "Bronze",
+            "dateJoined": "April 13th, 2023"
         },
         {
-            "name": "Smith",
-            "address": "",
-            "phoneNumb": "",
-            "url": false,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "2nd Chance Building Materials",
+            "address": "1423 W Grove St, Boise, ID 83702",
+            "phoneNumb": "+1 208-331-2707",
+            "url": "https://secondchanceboise.org/",
+            "img": "images/secondChance.jpg",
+            "memberLevel": "Silver",
+            "dateJoined": "October 5th, 2021"
         },
         {
-            "name": "Johnson",
-            "address": "",
-            "phoneNumb": "",
-            "url": true,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "Sunshine Spice Bakery & Cafe",
+            "address": "6911 Fairview Ave, Boise, ID 83704",
+            "phoneNumb": "+1 208-230-1163",
+            "url": "https://www.sunshinespicecafe.com/",
+            "img": "images/bakery.jpg",
+            "memberLevel": "Bronze",
+            "dateJoined": "February 20th, 2026"
         },
         {
-            "name": "Smith",
-            "address": "",
-            "phoneNumb": "",
-            "url": false,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "Dead on Archery",
+            "address": "10491 Fairview Ave, Boise, ID 83704",
+            "phoneNumb": "+1 208-922-9744",
+            "url": "http://www.deadonarchery.com/",
+            "img": "images/archery.jpg",
+            "memberLevel": "Gold",
+            "dateJoined": "June 1st, 2022"
         },
         {
-            "name": "Johnson",
-            "address": "",
-            "phoneNumb": "",
-            "url": true,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "Cabela's",
+            "address": "8109 W Franklin Rd, Boise, ID 83709",
+            "phoneNumb": "+1 208-672-7900",
+            "url": "https://stores.cabelas.com/us/id/boise/8109-west-franklin-road.html?y_source=1_Mzk4NjcyMi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "img": "images/cabela's.png",
+            "memberLevel": "Gold",
+            "dateJoined": "September 15th, 2020"
         },
         {
-            "name": "Smith",
-            "address": "",
-            "phoneNumb": "",
-            "url": false,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "Pat Harris School of Dance",
+            "address": "1225 N McKinney Ln, Boise, ID 83704",
+            "phoneNumb": "+1 208-375-3255",
+            "url": "https://patharrisdancestudio.com/",
+            "img": "images/dance.jpg",
+            "memberLevel": "Gold",
+            "dateJoined": "June 1st, 2022"
         },
         {
-            "name": "Johnson",
-            "address": "",
-            "phoneNumb": "",
-            "url": true,
-            "img": "",
-            "memberLevel": "",
-            "dateJoined": ""
+            "name": "Aquarium of Boise",
+            "address": "64 N Cole Rd, Boise, ID 83704",
+            "phoneNumb": "+1 208-375-1932",
+            "url": "http://www.aquariumboise.net/",
+            "img": "images/aquarium.jpg",
+            "memberLevel": "Platinum",
+            "dateJoined": "August 10th, 2020"
         }
     ]
 }

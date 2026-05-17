@@ -23,33 +23,47 @@
 </head>
 
 <body>
-    <header>
-        <div id="hereImg">
-            <img id="chamberLogo">
-            <img id="heroImg">
-        </div>
-        <nav>
+    <header class="hero">
+        <a href="directory.html" id="pageLogo"><img id="logo" src="images/chamberIcon.ico" alt="Chamber Icon"></a>
+        <h2 id="pageTitle">Boise Chamber of Commerce</h2>
+        <nav id="nav-bar" class="nav">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Directory</a></li>
-                <li><a href="">Other>..?</a></li>
-                <li><a href="">Join Us</a></li>
+
+                <li class="current">
+                    <h3><a href="directory.html">Directory</a></h3>
+                </li>
+                <li>
+                    <h3><a href="">Events</a></h3>
+                </li>
+                <li>
+                    <h3><a href="">Contributions</a></h3>
+                </li>
+                <li>
+                    <h3><a href="">Join Us</a></h3>
+                </li>
             </ul>
         </nav>
+        <button id="ham-btn" class="hamburger" aria-label="display"></button>
+
     </header>
     <main>
         <img>
-        <div>
+        <div id="welcomeMsg">
             <h2></h2>
             <p></p>
         </div>
-        <section>
+        <button id="gridBtn" class="button">Grid View</button>
+        <button id="listBtn" class="button">List View</button>
+
+        <div id="directory"></div>
+
+        <section id="joinUs">
             <div>
                 <p></p>
             </div>
             <div>
                 <h2></h2>
-                <button></button>
+                <button id="joinBtn"></button>
             </div>
         </section>
     </main>
@@ -67,6 +81,8 @@
         <p id="copyrightYear">&copy;</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/directory.js"></script>
+
 </body>
 
 </html>

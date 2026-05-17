@@ -1,1 +1,109 @@
-@media only screen and (min-width: 38rem) {}
+@media only screen and (min-width: 38rem) {
+
+    .hero {
+        background-image: url(/chamber/images/heroImagecrop.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        display: grid;
+        grid-template-columns: 150px 100px auto;
+        padding-top: 20px;
+        min-height: 450px;
+        position: relative;
+    }
+
+    header #logo {
+        width: 75px;
+        padding: 10px;
+        grid-column: 1/2;
+        border: 2px solid black;
+        border-radius: 25px;
+        background-color: #30405B;
+        align-items: center;
+    }
+
+    #pageTitle {
+        display: none;
+    }
+
+    #ham-btn {
+        display: none;
+    }
+
+
+    /* --------Navigation-------- */
+    #nav-bar {
+        display: block;
+        grid-column: 1/4;
+        background-color: #30405B;
+        /* justify-content: flex-end; */
+        opacity: .75;
+        width: 100%;
+        position: absolute;
+        padding-left: 100px;
+        top: 0;
+        left: 0;
+
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3rem;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .nav li {
+        list-style: none;
+        padding: 12px;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .nav a {
+        padding: 8px 16px;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        display: block;
+    }
+
+
+
+    /* Buttons for list and grid view */
+
+    #gridBtn {
+        display: inline-block;
+    }
+
+    #listBtn {
+        display: inline-block;
+    }
+
+    .button {
+        text-align: center;
+        color: white;
+        background-color: #30405B;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        padding: 7px;
+    }
+
+    #directory.gridView {
+        /* display: block; */
+        margin: 0 auto 10px auto;
+        padding: 8px 16px;
+    }
+
+    #directory.listView {
+        display: block;
+        max-width: 400px;
+        margin: 0 10px 10px 10px;
+        padding: 8px 16px;
+        text-align: center;
+    }
+
+}

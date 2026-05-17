@@ -13,26 +13,83 @@ F5B027 mustard yellow
 }
 
 /* -------- HEADER ----------> */
+header {
+    display: grid;
+    grid-template-columns: 75px 1fr 44px;
+    grid-template-rows: auto auto;
 
+}
+
+#pageTitle {
+    text-align: center;
+}
+
+#pagelogo {
+    width: 75px;
+    padding-bottom: 2px;
+    justify-self: start;
+}
 
 /*-------- HAMBURGER MENU --------*/
 
+.hamburger {
+    grid-column: 3;
+    grid-row: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #30405B;
+    padding: 5px 0px 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.hamburger::before {
+    content: "\2630";
+
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+
+
+}
 
 
 /* -------- NAVIGATION ----------> */
+.nav {
+    display: none;
+}
 
-
-
-
-/* Makes current navigation item stand out */
-.navigation li.current {
-    background-color: #ddd;
+.nav.show {
+    display: inline-block;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 2;
+    background-color: #30405B;
     color: white;
 }
 
-.navigation a:hover {
-    background-color: #30405B;
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav a {
+    display: block;
+    padding: .8rem 10px;
+    color: #F5B027;
+    text-decoration: none;
+}
+
+/* Makes current navigation item stand out */
+.nav li.current {
+    text-decoration: wavy underline;
+}
+
+.nav a:hover {
+    background-color: #F5B027;
     color: white;
 }
 
@@ -41,9 +98,51 @@ h1 {
     color: #30405B;
 }
 
+
 /* ------------MAIN------------- */
 
 
+/* Cards */
+#directory {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#directory section {
+    margin: 10px 0;
+    background-color: #ccc;
+    border: solid 2px darkgray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#directory a {
+    color: black;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #30405B;
+    color: white;
+}
+
+#directory a:hover {
+    background-color: #F5B027;
+    color: white;
+}
+
+#directory img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    max-width: 75%;
+    max-height: auto;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: none;
+}
 
 
 
