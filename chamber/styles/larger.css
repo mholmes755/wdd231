@@ -1,7 +1,7 @@
 @media only screen and (min-width: 38rem) {
 
     .hero {
-        background-image: url(/chamber/images/heroImagecrop.jpg);
+        background-image: url(../images/heroImagecrop.jpg);
         background-size: cover;
         background-position: bottom center;
         display: grid;
