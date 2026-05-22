@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/weather.css">
+    <title>Weather Lab</title>
 </head>
 
 <body>
     <h1>OpenWeatherMap.org API Test</h1>
     <main>
-        <p>The current temperature in Trier, Germany is <span id="current-temp"></span></p>
-        <figure>
-            <img id="weather-icon" src="" alt="">
-            <figcaption></figcaption>
+        <!-- <p>The current temperature in Trier, Germany is <span id="current-temp"></span></p> -->
+        <figure class="card">
+            <h2 id="town"></h2>
+            <img id="weatherIcon" src="" alt="">
+            <p id="caption"></p>
+            <p id="temperature"></p>
         </figure>
     </main>
     <footer>
-        [Enter Your Name Here] | OpenWeatherMap.org | CC BY-SA 4.0
+        Michael Holmes | OpenWeatherMap.org | CC BY-SA 4.0
     </footer>
     <script src="scripts/weather.js"></script>
 </body>
