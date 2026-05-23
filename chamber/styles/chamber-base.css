@@ -48,7 +48,7 @@ header {
 
 }
 
-.hamburger.show::before {
+.hamburger.show::after {
     content: "\00D7";
 
 
@@ -85,7 +85,12 @@ header {
 
 /* Makes current navigation item stand out */
 .nav li.current {
-    text-decoration: wavy underline;
+    text-decoration: none;
+    background-color: #F5B027;
+}
+
+.current a {
+    color: #30405B;
 }
 
 .nav a:hover {
@@ -109,10 +114,11 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-#directory section {
+/* #directory  */
+section {
     margin: 10px 0;
     background-color: #ccc;
-    border: solid 2px darkgray;
+    border: solid 2px darkcyan;
     border-radius: 5px;
     text-align: center;
 }
