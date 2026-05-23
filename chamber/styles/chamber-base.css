@@ -104,7 +104,7 @@ h1 {
 }
 
 
-/* ------------MAIN------------- */
+/* ------------MAIN DIRECTORY------------- */
 
 
 /* Cards */
@@ -114,8 +114,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-/* #directory  */
-section {
+#directory section {
     margin: 10px 0;
     background-color: #ccc;
     border: solid 2px darkcyan;
@@ -149,6 +148,89 @@ section {
 .button {
     display: none;
 }
+
+
+
+
+/* -------- MAIN HOME -------- */
+
+.mainSection {
+    border: #30405B solid 2px;
+}
+
+#weatherCard {
+    text-align: center;
+    background-color: #edc36f;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#weatherCard #caption {
+    margin: .3rem 0;
+    text-transform: capitalize;
+}
+
+#weatherCard #temperature {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #30405B;
+}
+
+
+
+#forecastBtn {
+    border: 3px #30405B solid;
+    border-radius: 5px;
+    background-color: #30405B;
+    color: white;
+    margin: 16px auto;
+}
+
+#forecastContainer {
+    display: none;
+}
+
+#forecastContainer.show {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    margin: 10px 10px;
+}
+
+.forecastCard {
+    background-color: #30405B;
+    border: #30405B 3px solid;
+    border-radius: 7px;
+    padding: 8px;
+    color: white;
+}
+
+.forecastCard p {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

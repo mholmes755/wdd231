@@ -29,13 +29,13 @@
         <nav id="nav-bar" class="nav">
             <ul>
 
-                <li>
+                <li class="current">
                     <h3><a href="index.html">Home</a></h3>
                 </li>
                 <li>
-                    <h3><a href="#">Events</a></h3>
+                    <h3><a href="#">Discover</a></h3>
                 </li>
-                <li class="current">
+                <li>
                     <h3><a href="directory.html">Directory</a></h3>
                 </li>
                 <li>
@@ -47,16 +47,54 @@
 
     </header>
     <main>
-        <img src="" alt="">
-        <div id="welcomeMsg">
-            <h2></h2>
-            <p></p>
-        </div>
-        <button id="gridBtn" class="button" aria-label="display">Grid View</button>
-        <button id="listBtn" class="button" aria-label="display">List View</button>
+        <section id="weatherCard" class="mainSection">
+            <div>
+                <h2 id="forecastOption">Todays Forecast</h2>
+                <img id="weatherIcon" src="" alt="">
+                <p id="caption"></p>
+                <p id="temperature"></p>
+            </div>
+            <button id="forecastBtn" aria-label="display">3-Day Forecast</button>
+            <div id="forecastContainer">
+                <div class="forecastCard">
+                    <h3 id="dayOneDate"></h3>
+                    <img id="dayOneIcon" src="" alt="">
+                    <p id="dayOneCaption"></p>
+                    <p id="dayOneTemperature"></p>
+                </div>
+                <div class="forecastCard">
+                    <h3 id="dayTwoDate"></h3>
+                    <img id="dayTwoIcon" src="" alt="">
+                    <p id="dayTwoCaption"></p>
+                    <p id="dayTwoTemperature"></p>
+                </div>
+                <div class="forecastCard">
+                    <h3 id="dayThreeDate"></h3>
+                    <img id="dayThreeIcon" src="" alt="">
+                    <p id="dayThreeCaption"></p>
+                    <p id="dayThreeTemperature"></p>
+                </div>
+            </div>
+        </section>
 
-        <div id="directory"></div>
+        <section id="members" class="mainSection">
+            <h2>Current Events</h2>
+            <img src="" alt="">
+            <p></p>
+        </section>
+
+        <section class="mainSection">
+            <div id="spotlight">
+                <p>spotlight content</p>
+            </div>
+            <div id="joinUs">
+                <h2></h2>
+                <a href="#" target="_blank"><button id="joinBtn">Join Now</button></a>
+            </div>
+        </section>
+
     </main>
+
     <footer>
         <div class="social">
             <a href="https://github.com/mholmes755" target="_blank"><img src="images/github.svg" alt="github logo"
@@ -72,6 +110,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/directory.js"></script>
+    <script src="scripts/weather.js"></script>
 
 </body>
 
