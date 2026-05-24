@@ -4,6 +4,7 @@
 
 const json = 'data/members.json';
 const cards = document.querySelector('#directory');
+const spotlight = document.querySelector('#spotlight');
 
 async function getCompanyData() {
     const response = await fetch(json);
@@ -35,6 +36,7 @@ const displayCompanies = (companies) => {
         cards.appendChild(card);
     })
 }
+
 
 
 
