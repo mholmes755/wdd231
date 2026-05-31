@@ -315,7 +315,7 @@ h1 {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-#joinMain h2 {
+#joinMain h1 {
     grid-column: 1/6;
     grid-row: 1/2;
     text-align: center;
@@ -337,7 +337,7 @@ label {
     padding-top: .2rem;
 }
 
-#joinMain h3 {
+#joinMain h2 {
     border-bottom: 2px solid black;
 }
 
