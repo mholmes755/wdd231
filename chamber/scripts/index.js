@@ -1,4 +1,3 @@
-
 const json = 'data/members.json';
 const spotlight = document.querySelector('#spotlight');
 
@@ -61,7 +60,9 @@ const option = {
     minute: 'numeric',
     second: 'numeric'
 };
-const option2 = { year: "numeric" };
+const option2 = {
+    year: "numeric"
+};
 
 lastModified.innerHTML = `Last Modified: ${new Date().toLocaleDateString("en-US", option)}`;
 
@@ -80,4 +81,3 @@ navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('show');
     navlinks.classList.toggle('show');
 });
-

@@ -11,15 +11,15 @@
     <meta property="og:title" content="Chamber Directory">
     <meta property="og:description"
         content="Welcome to the Boise Chamber of Commerce directory! Here you can find information about local businesses, events, and resources in the Boise area.">
-    <meta property="og: image" content="images/chamber-icon.ico">
-    <meta property="og: url" content="https://mholmes755.github.io/wdd231/chamber/directory.html">
+    <meta property="og: image" content="https://mholmes755.github.io/wdd231/chamber/images/chamber-icon.ico">
+    <meta property="og: url" content="https://mholmes755.github.io/wdd231/chamber/join.html">
     <meta property="og:type" content="website">
     <link rel="icon" href="images/chamber-icon.ico" type="image/svg+xml">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/thanks.js" defer></script>
-    <title>Boise Chamber of Commerce</title>
+    <title>Join the Boise Chamber of Commerce</title>
 
 </head>
 
@@ -31,16 +31,16 @@
             <ul>
 
                 <li>
-                    <h3><a href="index.html">Home</a></h3>
+                    <h2><a href="index.html">Home</a></h2>
                 </li>
                 <li>
-                    <h3><a href="#">Discover</a></h3>
+                    <h2><a href="#">Discover</a></h2>
                 </li>
                 <li>
-                    <h3><a href="directory.html">Directory</a></h3>
+                    <h2><a href="directory.html">Directory</a></h2>
                 </li>
                 <li class="current">
-                    <h3><a href="join.html">Join Us</a></h3>
+                    <h2><a href="join.html">Join Us</a></h2>
                 </li>
             </ul>
         </nav>
@@ -48,12 +48,12 @@
 
     </header>
     <main id="joinMain">
-        <h1>Thank you for joining our community!</h1>
-        <form method="GET" action="thanks.html" class="chamberForm">
+        <h2>Thank you for joining our community!</h2>
+        <form method="GET" action="thankyou.html" class="chamberForm">
             <h3>User Info</h3>
-            <label>First Name<input type="text" name="first" required autocomplete="first-name"
+            <label>First Name<input type="text" name="first" required autocomplete="given-name"
                     title="Your First Name"></label>
-            <label>Last Name<input type="text" name="last" required autocomplete="last-name"
+            <label>Last Name<input type="text" name="last" required autocomplete="family-name"
                     title="Your Last URL"></label>
             <label>Organizational Title<input type="text" name="title" title="Your Organizational Title"
                     autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"></label>
@@ -61,17 +61,19 @@
             <h3>Company Info</h3>
             <label>Company Email<input type="email" name="email" required autocomplete="email"
                     title="Your Company Email" placeholder="example@gmail.com"></label>
-            <label>Mobile Phone<input type="tel" name="phone" required autocomplete="phone"
+            <label>Mobile Phone<input type="tel" name="phone" required autocomplete="tel"
                     title="Your Company Phone Number" placeholder="000-000-000"></label>
             <label>Company Name<input type="text" name="company" required autocomplete="organization"
                     title="Your Company Name"></label>
+            <label id="textArea">Company Description<textarea name="description" title="Your company description"
+                    rows="5" cols="75"></textarea></label>
             <hr>
             <h3 id="memberLevel">Membership Level</h3>
+            <label><input type="radio" name="membership" value="NP"> No Pay Membership</label>
             <label><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
             <label><input type="radio" name="membership" value="Silver"> Silver Membership</label>
             <label><input type="radio" name="membership" value="Gold"> GoldMembership</label>
             <hr>
-            <label>Company Description<input type="text" name="description" title="Your company description"></label>
             <label><input type="hidden" name="timeStamp" id="userTimeStamp"></label>
             <input type="submit" value="Join Our Chamber!">
         </form>

@@ -66,8 +66,12 @@
         padding: 8px 16px;
         text-decoration: none;
         list-style: none;
-        color: white;
+        color: #F5B027;
         display: block;
+    }
+
+    .current a {
+        color: #30405B;
     }
 
 
@@ -164,7 +168,6 @@
     }
 
     #membershipInfo button {
-        justify-content: baseline;
         border-radius: 7px;
         max-height: 50%;
         align-content: center;
