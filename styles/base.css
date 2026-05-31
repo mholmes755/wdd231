@@ -154,6 +154,7 @@ h1 {
 
 #courses {
     margin: 10px;
+    padding-bottom: 75px;
     grid-column: 1/4;
     grid-row: 3/4;
 }
@@ -162,6 +163,10 @@ h1 {
     background-color: #F5B027;
     color: #273349;
     border-radius: 2px;
+}
+
+#credits {
+    margin: 10px;
 }
 
 /* -------- Course Buttons-------- */
@@ -215,12 +220,29 @@ h1 {
 
 
 
+/* -------- Show Modal -------- */
+
+dialog {
+    border: 1px solid #333;
+    border-radius: 7px;
+    background-color: #ddd;
+    box-shadow: 0 0 10px #777;
+    width: 90%;
+    max-width: 100px;
+}
+
+::backdrop {
+    background-color: rgb(202 197 197 /10%);
+}
+
+
 
 /* ---------FOOOTER--------------- */
 footer {
     background-color: #eee;
     padding: 1rem 10px;
     text-align: center;
+
 
 }
 
