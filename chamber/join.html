@@ -34,7 +34,7 @@
                     <h2><a href="index.html">Home</a></h2>
                 </li>
                 <li>
-                    <h2><a href="#">Discover</a></h2>
+                    <h2><a href="discover.html">Discover</a></h2>
                 </li>
                 <li>
                     <h2><a href="directory.html">Directory</a></h2>
@@ -49,7 +49,7 @@
     </header>
     <main id="joinMain">
         <h1>Thank you for joining our community!</h1>
-        <form method="GET" action="thankyou.html" class="chamberForm">
+        <form method="GET" action="thankyou.html" target="_blank" class="chamberForm" id="joinForm">
             <h2>User Info</h2>
             <label>First Name<input type="text" name="first" required autocomplete="given-name"
                     title="Your First Name"></label>
@@ -66,7 +66,7 @@
             <label>Company Name<input type="text" name="company" required autocomplete="organization"
                     title="Your Company Name"></label>
             <label id="textArea">Company Description<textarea name="description" title="Your company description"
-                    rows="5" cols="75"></textarea></label>
+                    rows="5"></textarea></label>
             <hr>
             <h2 id="memberLevel">Membership Level</h2>
             <label><input type="radio" name="membership" value="NP"> No Pay Membership</label>
@@ -78,8 +78,9 @@
             <input type="submit" value="Join Our Chamber!">
         </form>
 
+
         <div id="membershipInfo">
-            <button id="nonMember">Non Members Benefits</button>
+            <button class="membershipBtn" id="nonMember">Non Members Benefits</button>
             <dialog id="nonMemberDialog">
                 <h2>Benefits</h2>
                 <p>Each business in the chamber of commerce will still engage
@@ -89,7 +90,7 @@
                 <button class="closeBtn">X</button>
             </dialog>
 
-            <button id="bronzeMember">Bronze Member Benefits</button>
+            <button class="membershipBtn" id="bronzeMember">Bronze Member Benefits</button>
             <dialog id="bronzeMemberDialog">
                 <h2>Benefits</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nam minus neque suscipit incidunt culpa
@@ -98,7 +99,7 @@
                 <p><strong>Price: </strong>$299.99/month</p>
                 <button class="closeBtn">X</button>
             </dialog>
-            <button id="silverMember">Silver Member Benefits</button>
+            <button class="membershipBtn" id="silverMember">Silver Member Benefits</button>
             <dialog id="silverMemberDialog">
                 <h2>Benefits</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium dolorum obcaecati aspernatur
@@ -107,7 +108,7 @@
                 <p><strong>Price: </strong>$449.99/month</p>
                 <button class="closeBtn">X</button>
             </dialog>
-            <button id="goldMember">Gold Member Benefits</button>
+            <button class="membershipBtn" id="goldMember">Gold Member Benefits</button>
             <dialog id="goldMemberDialog">
                 <h2>Benefits</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odio labore aspernatur voluptatum

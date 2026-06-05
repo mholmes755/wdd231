@@ -12,13 +12,19 @@
     }
 
     header #logo {
-        width: 75px;
+        /* width: 75px;
         padding: 10px;
         grid-column: 1/2;
         border: 2px solid black;
         border-radius: 25px;
         background-color: #30405B;
-        align-items: center;
+        align-items: center; */
+
+        width: 75px;
+        margin-bottom: 350px;
+        padding-left: 15px;
+        justify-self: baseline;
+        z-index: 1;
     }
 
     #pageTitle {

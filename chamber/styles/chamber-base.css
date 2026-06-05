@@ -15,7 +15,8 @@ F5B027 mustard yellow
 /* -------- HEADER ----------> */
 header {
     display: grid;
-    grid-template-columns: 75px 1fr 44px;
+    grid-template-columns: auto 1fr 44px;
+    align-items: center;
     grid-template-rows: auto auto;
 
 }
@@ -24,10 +25,16 @@ header {
     text-align: center;
 }
 
-#pagelogo {
+#pageLogo {
     width: 75px;
-    padding-bottom: 2px;
-    justify-self: start;
+    justify-self: baseline;
+    z-index: 1;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
 }
 
 /*-------- HAMBURGER MENU --------*/
@@ -48,7 +55,7 @@ header {
 
 }
 
-.hamburger.show::after {
+.hamburger.show::before {
     content: "\00D7";
 
 
@@ -407,7 +414,53 @@ textArea {
 }
 
 
+/* -------- Dialog Animations -------- */
 
+.membershipBtn {
+    position: relative;
+    border: none;
+    border-radius: 12px;
+    padding: 1.5rem;
+    background: white;
+    width: min(500px, 90vw);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    overflow: hidden;
+}
+
+.membershipBtn::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border-radius: inherit;
+    background: conic-gradient(from 0deg,
+            #F5276C);
+    animation: spin 4s linear infinite;
+    z-index: -2;
+}
+
+.membershipBtn::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background: #30405B;
+    border-radius: inherit;
+    z-index: -1;
+}
+
+/* rotation animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+#resultsHeader {
+    padding-left: 15px;
+}
 
 /* ---------FOOOTER--------------- */
 footer {
