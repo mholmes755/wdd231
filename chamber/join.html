@@ -48,9 +48,9 @@
 
     </header>
     <main id="joinMain">
-        <h1>Thank you for joining our community!</h1>
+        <h2 id="thanksMsg">Thank you for joining our community!</h2>
         <form method="GET" action="thankyou.html" target="_blank" class="chamberForm" id="joinForm">
-            <h2>User Info</h2>
+            <h2 class="formHeaders">User Info</h2>
             <label>First Name<input type="text" name="first" required autocomplete="given-name"
                     title="Your First Name"></label>
             <label>Last Name<input type="text" name="last" required autocomplete="family-name"
@@ -58,7 +58,7 @@
             <label>Organizational Title<input type="text" name="title" title="Your Organizational Title"
                     autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"></label>
             <hr>
-            <h2>Company Info</h2>
+            <h2 class="formHeaders">Company Info</h2>
             <label>Company Email<input type="email" name="email" required autocomplete="email"
                     title="Your Company Email" placeholder="example@gmail.com"></label>
             <label>Mobile Phone<input type="tel" name="phone" required autocomplete="tel"

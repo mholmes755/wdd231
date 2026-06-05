@@ -1,11 +1,22 @@
-/* 27F5B0 sea green
-27D3F5 cyan
-276CF5 aqua blue
-F5276C dark salmon
-F5B027 mustard yellow
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Kaushan+Script&display=swap');
 
-*/
+:root {
+    --header-font: 'Kaushan Script', cursive;
+    --paragraph-font: 'Capriola', 'Lucida Sans Regular', sans-serif;
+}
 
+p {
+    font-family: var(--paragraph-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--header-font);
+}
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
@@ -322,12 +333,6 @@ h1 {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-#joinMain h1 {
-    grid-column: 1/6;
-    grid-row: 1/2;
-    text-align: center;
-}
-
 .chamberForm {
     display: grid;
     padding: 15px;
@@ -344,9 +349,17 @@ label {
     padding-top: .2rem;
 }
 
-#joinMain h2 {
+.formHeaders {
     border-bottom: 2px solid black;
 }
+
+#thanksMsg {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+    border-bottom: none;
+}
+
 
 input[type=text],
 input[type=tel],
@@ -434,6 +447,7 @@ textArea {
     inset: -5px;
     border-radius: inherit;
     background: conic-gradient(from 0deg,
+            #F5276C,
             #F5276C);
     animation: spin 4s linear infinite;
     z-index: -2;
