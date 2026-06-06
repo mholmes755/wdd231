@@ -1,0 +1,16 @@
+@media only screen and (min-width: 38rem) {
+
+    #discoverSection .placeCard {
+        grid-template-areas:
+            "img name"
+            "img description"
+            "img location"
+            "img button"
+        ;
+    }
+
+    #discoverSection .placeCard img {
+        width: 300px;
+        height: auto;
+    }
+}

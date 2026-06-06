@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     .hero {
         background-image: url(../images/hero-image-crop.jpg);
@@ -12,14 +12,6 @@
     }
 
     header #logo {
-        /* width: 75px;
-        padding: 10px;
-        grid-column: 1/2;
-        border: 2px solid black;
-        border-radius: 25px;
-        background-color: #30405B;
-        align-items: center; */
-
         width: 75px;
         margin-bottom: 350px;
         padding-left: 15px;
@@ -180,5 +172,14 @@
         background-color: #30405B;
         color: white;
     }
+
+    /* -------- Discover Layout -------- */
+
+    #discoverSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
 
 }

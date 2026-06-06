@@ -470,11 +470,87 @@ textArea {
 }
 
 
-
-
 #resultsHeader {
     padding-left: 15px;
 }
+
+#discoverHeader {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#discoverDescription {
+    text-align: center;
+    margin: 0 15px 1rem 15px;
+}
+
+
+/* -------- Discover Cards -------- */
+
+#discoverSection .placeCard {
+    background-color: #eee;
+    border: solid 2px #30405B;
+    border-radius: 5px;
+    text-align: left;
+    margin: 15px 15px;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas:
+        "name"
+        "img"
+        "description"
+        "location"
+        "button";
+
+}
+
+.placeCard h2 {
+    grid-area: name;
+    padding: 10px;
+}
+
+.placeCard figure {
+    grid-area: img;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+.placeCard figure img:hover {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    transform: scale(1.25);
+    object-fit: cover;
+}
+
+.placeCard address {
+    grid-area: location;
+    padding: 0 10px 10px 10px;
+    font-style: italic;
+}
+
+.placeCard p {
+    grid-area: description;
+    padding: 0 10px 10px 10px;
+}
+
+.placeCard button {
+    grid-area: button;
+    background-color: #30405B;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+}
+
+.placeCard button:hover {
+    transform: scale(1.05);
+    border: solid 2px #F5B027;
+}
+
+
 
 /* ---------FOOOTER--------------- */
 footer {
